@@ -38,3 +38,7 @@ body {
         background-image: url(../img/arts-background-mobile.png);
     }
 }
+
+.stream-arts {
+    flex-grow: 1;
+}

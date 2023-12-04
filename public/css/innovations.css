@@ -35,3 +35,7 @@ body {
         background-image: url(../img/inn-background-mobile.png);
     }
 }
+
+.stream-innovations {
+    flex-grow: 1;
+}

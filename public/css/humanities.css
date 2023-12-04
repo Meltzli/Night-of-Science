@@ -39,3 +39,7 @@ body {
         background-image: url(../img/hmn-background-mobile.png);
     }
 }
+
+.stream-humanities {
+    flex-grow: 1;
+}
