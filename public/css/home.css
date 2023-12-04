@@ -167,3 +167,7 @@
         width: 5vw;
     }
 }
+
+.stream-home {
+    flex-grow: 1;
+}
