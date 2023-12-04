@@ -1,0 +1,37 @@
+/* Common Styles */
+body {
+    background-image: url(../img/innovations-background.png);
+}
+/* Header */
+.header-about {
+    background-color: var(--inn-primary-clr);
+}
+
+.time > p {
+    color: var(--inn-primary-clr);
+}
+
+/* Tooltip */
+.tooltip {
+    border-color: var(--inn-primary-clr);
+}
+
+.program-items-grid__item:hover {
+    background: linear-gradient(
+        312.75deg,
+        #08a2a3 -14.59%,
+        rgba(8, 162, 163, 0) 47.33%
+    );
+}
+
+.extra {
+    background: var(--inn-primary-clr);
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 1024px) {
+    /* Common styles */
+    body {
+        background-image: url(../img/inn-background-mobile.png);
+    }
+}

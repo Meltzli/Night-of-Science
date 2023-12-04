@@ -1,0 +1,41 @@
+/* Common Styles */
+body {
+    background-image: url(../img/hmn-background.png);
+}
+/* Header */
+.header-about {
+    background-color: var(--hmn-primary-clr);
+}
+
+.time > p {
+    color: var(--hmn-primary-clr);
+}
+/* Tooltip */
+.tooltip {
+    border-color: var(--hmn-primary-clr);
+}
+
+/* Точки программы */
+.program-items-grid__item {
+    border-color: var(--hmn-primary-clr) !important;
+}
+
+.program-items-grid__item:hover {
+    background: linear-gradient(
+        312.75deg,
+        #f5c506 -14.59%,
+        rgba(245, 197, 6, 0) 47.33%
+    );
+}
+
+.extra {
+    background: var(--hmn-primary-clr);
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 1024px) {
+    /* Common styles */
+    body {
+        background-image: url(../img/hmn-background-mobile.png);
+    }
+}

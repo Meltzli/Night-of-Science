@@ -1,0 +1,169 @@
+/* Header navigation */
+.header__navigation {
+    display: flex;
+}
+
+.header__navigation-btn {
+    padding: 1vw;
+    margin: 0 2vw 2vw 0;
+}
+
+.header__navigation-btn img {
+    height: 2.5vw;
+}
+
+.header-about {
+    margin: 12vw 0 20vw 0;
+    background-color: var(--big-scene-primary-clr);
+}
+
+.header-about__title {
+    margin: 0;
+}
+
+.header-about__description > div {
+    width: 22vw;
+}
+
+.header-about__description-def {
+    font-weight: bold;
+}
+
+/* Table Header */
+.schedule-header {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4, 2fr);
+
+    margin-bottom: 3vw;
+    align-items: center;
+}
+
+.schedule-header__item {
+    margin-left: 2vw;
+    height: 2vw;
+}
+
+.big-scene {
+    height: 5vw;
+}
+
+.schedule-home {
+    margin: 0 3vw 22vw;
+}
+
+/* Table grid */
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4, 2fr);
+    grid-auto-rows: minmax(30px, auto);
+    grid-row-gap: 1em;
+
+    max-height: 24vw;
+
+    overflow-y: auto;
+}
+
+.innovations-item .tooltip {
+    border-color: var(--inn-primary-clr);
+}
+
+.humanities-item .tooltip {
+    border-color: var(--hmn-primary-clr);
+}
+.arts-item .tooltip {
+    border-color: var(--arts-primary-clr);
+}
+
+/* Contacts */
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 22vw;
+}
+
+.contacts > img {
+    width: 10vw;
+    margin-top: 1vh;
+}
+
+.contacts__social {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.contacts__social img {
+    width: 2.5vw;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 1024px) {
+    /* Header */
+    .header-logo {
+        width: 68vw;
+    }
+    /* Header navigation */
+    .header__navigation {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 0 6vw 0;
+    }
+
+    .header__navigation-btn img {
+        height: 8vw;
+    }
+    /* Header about */
+    .header-about {
+        margin: 52vw 0 52vw 0;
+    }
+    .header-about__description > div {
+        width: 82vw;
+        font-size: 3.5vw;
+    }
+    /* Schedule */
+    .schedule-home {
+        overflow-y: auto;
+    }
+    /* Schedule Header */
+    .schedule-header {
+        grid-template-columns: 16% repeat(4, 80%);
+    }
+    .schedule-header__item {
+        margin-left: 2vw;
+        height: 8vw;
+    }
+    /* Schedule grid */
+    .schedule-grid {
+        grid-template-columns: 1fr repeat(4, 80%);
+        grid-auto-rows: minmax(4vw, auto);
+        max-height: 80vw;
+
+        overflow-y: unset;
+    }
+    .schedule-grid__item {
+        border: 0;
+    }
+
+    .schedule-grid__item > p {
+        font-size: 4.5vw;
+    }
+
+    .big-scene {
+        height: 16vw;
+    }
+    /* Contacts */
+    .contacts {
+        padding: 26vw 0 50vw 0;
+    }
+
+    .contacts > img {
+        width: 20vw;
+    }
+
+    .contacts__social img {
+        width: 5vw;
+    }
+}
